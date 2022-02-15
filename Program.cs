@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(_loginOrigin, builder =>
     {
-        builder.WithOrigins("https://autobus-complete.netlify.app");
+        builder.WithOrigins("https://abdelrhmanelkady.github.io");
         builder.AllowAnyHeader();
         builder.AllowAnyMethod();
         builder.AllowCredentials();
