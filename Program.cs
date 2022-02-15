@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(_loginOrigin, builder =>
     {
-        builder.WithOrigins("https://app.netlify.com");
+        builder.WithOrigins("https://quizzical-northcutt-440537.netlify.app");
         builder.AllowAnyHeader();
         builder.AllowAnyMethod();
         builder.AllowCredentials();
