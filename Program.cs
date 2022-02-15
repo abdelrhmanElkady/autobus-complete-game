@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(_loginOrigin, builder =>
     {
-        builder.WithOrigins("https://abdelrhmanelkady.github.io");
+        builder.WithOrigins("https://app.netlify.com");
         builder.AllowAnyHeader();
         builder.AllowAnyMethod();
         builder.AllowCredentials();
