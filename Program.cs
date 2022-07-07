@@ -17,7 +17,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy(_loginOrigin, builder =>
     {
-        builder.WithOrigins("http://localhost:4200");
+        // builder.WithOrigins("http://localhost:4200");
+        builder.WithOrigins("https://abdelrhmanelkady.github.io");
         builder.AllowAnyHeader();
         builder.AllowAnyMethod();
         builder.AllowCredentials();
